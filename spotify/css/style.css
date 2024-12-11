@@ -3,7 +3,6 @@ body{
 }
 
 .sidebar{
-    border: 3px solid yellow;
     height: 85vh;
     width: 15vw;
 
@@ -12,12 +11,73 @@ body{
     justify-content: space-between;
 }
 
-.b{
-    border: 3px solid blue;
-}
+.ct2{
+    display: flex;
 }
 
-.c{
-    border: 3px solid green;
+.navbar{
+    height: 10vh;
+    min-height: 50px;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+.main{
+    height: 75vh;
 }
+
+.footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ct_pic_name{
+    display: flex;
+    align-items: center;
+}
+
+.l_group{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* QUALE DELLE DUE? */
+    justify-content: space-around;
+    width: 27%;
+}
+
+.l_group > *{
+    border: 1px solid yellow;
+}
+
+.c_group{
+    width: 40%;
+}
+
+.media_controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.song_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.r_group{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
