@@ -19,20 +19,53 @@ body{
     width: 25px;
 }
 
+.big_logo{
+    width: 20vw;
+    display: none;
+    max-width: 250px;
+}
+
 .sb_groups{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px 8px 10px 8px;
     gap: 5px;
+    width: 100%;
+
+    
+}
+
+.display_none{
+    display: none;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.sb_new_cont{
+
+}
+
+.plus{
+    width: 100%;
 }
 
 .sidebar_icons{
     width: 20px;
 }
 
+.sidebar_icons .plus{
+    width: 100%;
+}
+
 .ct2{
     display: flex;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    color: #adadad;
+    line-height: 2;
 }
 
 .nav_main_cont{
