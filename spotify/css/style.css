@@ -4,7 +4,7 @@ body{
 
 .sidebar{
     height: 85vh;
-    width: 15vw;
+    width: 50px;
 
     display: flex;
     flex-direction: column;
@@ -35,14 +35,28 @@ body{
     display: flex;
 }
 
+.nav_main_cont{
+    width: 100vw;
+}
+
 .navbar{
     background-color: black;
     height: 10vh;
     min-height: 50px;
-    width: 85vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.navbar button{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 0.6rem;
 }
 
 .main{
