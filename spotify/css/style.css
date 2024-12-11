@@ -91,27 +91,61 @@ body{
 .footer{
     width: 100%;
     height: 15vh;
+    /* max-height: RISOLVI; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    background-color: #282828;
+    color: white;
+    padding: 0 10px;
+
+    font-size: 10px;
 }
 
 .ct_pic_name{
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .l_group{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* QUALE DELLE DUE? */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     width: 27%;
 }
 
+.heart_folder_buttons{
+    width: 10px;
+}
+
+.sg_media_control{
+    width: 12px;
+}
+
+.sg_media_control_play{
+    width: 23px;
+}
+
+.footer p{
+    color: rgb(156, 155, 155);
+}
+
+.song_pic{
+    width: 8vw;
+    max-width: 80px;
+    /**************** 
+    
+    -> RISOLVI rottura contenitore pic in mod. landscape 
+    
+    **************/
+}
+
 .l_group > *{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .c_group{
@@ -124,6 +158,7 @@ body{
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    padding: 10px 0px;
 }
 
 .song_bar{
@@ -132,11 +167,40 @@ body{
     justify-content: space-between;
 }
 
+.bar_container{
+    width: 90%;
+    text-align: center;
+}
+
+.bar{
+    width: 90%;
+    
+}
+
+.volume_bar{
+    width: 20vw;
+}
+
+.list_device_volume{
+    width: 10px;
+}
+
 .r_group{
     width: 27%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.l_d{
+    width: 100%;
+    gap: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+
 }
 
 
