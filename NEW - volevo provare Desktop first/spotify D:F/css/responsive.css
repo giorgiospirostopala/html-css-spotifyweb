@@ -51,6 +51,11 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .card{
+        width: 45%;
+        /* height: 300px; */
+    }
 }
 
 
