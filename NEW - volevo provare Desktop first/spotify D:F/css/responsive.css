@@ -84,6 +84,12 @@
     }
 }
 
+@media screen and (max-width: 365px){
+    .cont__nav-main{
+        font-size: 14px;
+    }
+}
+
 /* EXTRA SMALL  */
 @media screen and (max-width: 320px){
     .small-logo{
@@ -130,9 +136,5 @@
 
     .cont__nav-main{
         flex-basis: calc(100% - 10px);
-    }
-
-    .cont__nav-main{
-        font-size: 1rem;
     }
 }
