@@ -1,3 +1,9 @@
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+    
+}
+
 /* SMALL */
 
 @media screen and (max-width: 480px){
@@ -6,20 +12,33 @@
         justify-content: center;
         align-items: flex-end;
     }
+
+    .adapt{
+        height: 80%;
+    }
 }
 
+@media screen and (max-width: 415px){
+    .cont__ft-left__right{
+        display: none;
+    }
 
-
-/* TABLET */
-
-@media screen and (max-width: 768px) {
-    
+    .adapt{
+        height: 80%;
+    }
 }
 
+/* EXTRA SMALL  */
+@media screen and (max-width: 320px){
+    .adapt{
+        height: 60%;
+    }
 
+    .cont__ft-right__right{
+        display: none;
+    }
 
-/* DESKTOP
-
-@media screen and (max-width: 1024px) {
-    
-} */
+    .cont__ft-right__left{
+        width: 100%;
+    }
+}
