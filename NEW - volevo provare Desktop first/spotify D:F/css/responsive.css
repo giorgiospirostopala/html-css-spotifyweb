@@ -1,7 +1,11 @@
 /* SMALL */
 
 @media screen and (max-width: 480px){
-
+    .cont__ft-left__right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
 
 

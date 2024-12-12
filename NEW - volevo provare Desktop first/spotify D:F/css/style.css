@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.contenitore__tutto{
+.container__tutto{
     height: 100vh;
     width: 100vw;
 }
 
-.contenitore__nav-side-main{
+.container__nav-side-main{
     background-color: beige;
     height: calc(100% - 80px);
     display: flex;
 }
 
-.contenitore__footer{
+.container__footer{
     background-color: aqua;
     height: 80px;
     display: flex;
@@ -49,28 +49,110 @@
     height: 100%;
     flex-basis: 150px;
     display: flex;
-    padding: 15px 0 15px 15px;
+    padding: 10px 0 10px 10px;
 }
 
 .cont__ft-center{
     flex-basis: calc(100% - 300px);
     min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .cont__ft-right{
     flex-basis: 150px;
+    display: flex;
+    padding: 10px 10px 10px 0px;
 }
 
 .cont__ft-left__left{
     flex-basis: 70%;
     display: flex;
+    align-items: center;
 }
 
 .cont__ft-left__right{
     flex-basis: 30%;
+    display: flex;
+    align-items: center;
 }
 
 .cont__footer-image{
     flex-basis: 40%;
     height: 80%;
+}
+
+.cont__footer-song-name{
+    flex-basis: 60%;
+    height: 80%;
+}
+
+.cont__footer-heart{
+    height: 35%;
+    width: 50%;
+}
+
+.cont__footer-folder{
+    height: 35%;
+    width: 50%;
+}
+
+.cont__media-controls{
+    height: 60%;
+    width: 60%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    /* gap: 5%; */
+}
+
+.cont__song-bar{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.cont__mc-icon{
+    height: 80%;
+    width: 18%;
+}
+
+.cont__mc-center-icon{
+    width: 28%;
+    height: 100%;
+}
+
+.cont__song-bar__minute{
+    width: 10%;
+}
+
+.cont__song-bar__bar{
+    width: 80%;
+}
+
+.cont__ft-right__left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.cont__ft-right__right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.cont__footer-right-icons{
+    height: 35%;
+    width: 50%;
+}
+
+.cont__ft__volume-bar{
+    height: 40%;
+    width: 100%;
 }
