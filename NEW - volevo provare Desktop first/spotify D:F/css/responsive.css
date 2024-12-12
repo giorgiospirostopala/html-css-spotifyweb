@@ -46,6 +46,11 @@
     .cont__sb-middle__bottom{
         height: 83%;
     } */
+
+    .categories{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -71,5 +76,9 @@
 @media screen and (max-width: 320px){
     .adapt{
         height: 60%;
+    }
+
+    .cont__nav button{
+        font-size: 0.5rem;
     }
 }
