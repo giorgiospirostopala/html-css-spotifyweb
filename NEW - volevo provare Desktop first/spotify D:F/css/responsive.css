@@ -131,4 +131,8 @@
     .cont__nav-main{
         flex-basis: calc(100% - 10px);
     }
+
+    .cont__nav-main{
+        font-size: 1rem;
+    }
 }
