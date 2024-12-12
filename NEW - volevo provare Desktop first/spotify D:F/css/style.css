@@ -4,7 +4,6 @@
 }
 
 .container__nav-side-main{
-    background-color: beige;
     height: calc(100% - 80px);
     display: flex;
 }
@@ -17,13 +16,19 @@
 }
 
 .cont__sidebar{
-    background-color: bisque;
+    background-color: #000000;
     flex-basis: 150px;
     height: 100%;
 }
 
 .cont__nav-main{
-    background-color: cadetblue;
+    background: rgb(20,25,34);
+    background: -moz-linear-gradient(133deg, rgba(20,25,34,1) 0%, rgba(20,25,34,1) 28%, rgba(0,73,88,1) 100%);
+    background: -webkit-linear-gradient(133deg, rgba(20,25,34,1) 0%, rgba(20,25,34,1) 28%, rgba(0,73,88,1) 100%);
+    background: linear-gradient(133deg, rgba(20,25,34,1) 0%, rgba(20,25,34,1) 28%, rgba(0,73,88,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141922",endColorstr="#004958",GradientType=1);
+
+    
     flex-basis: calc(100% - 150px);
     height: 100%;
 }
@@ -36,12 +41,109 @@
     height: calc(100% - 60px);
 }
 
-.cont__sb-top{
-    height: calc(100% - 60px);
+.cont__sb-top__logo{
+    height: 60px;
+    padding: 15px 40px 10px 15px;
+}
+
+.cont__sb-middle{
+    height: calc(100% - 120px);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cont__sb-middle__top{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* ADATTA GAP a tutte le risoluzioni */
+    border-bottom: 1px solid grey;
+}
+
+.cont__sb-pages{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cont__sb-pages-icons{
+    width: 22px;
+    height: 22px;
+}
+
+.sb__pages-text{
+    color: #6D6D6D;
+    font-size: 11px;
+}
+
+/* HOVER BONUS
+.sb__pages-text:hover{
+    color: white;
+}  */
+
+.cont__sb-middle__bottom{
+    color: white;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 12px;
+    overflow: auto;
+}
+
+.sb__playlist-section{
+    font-size: 13px;
+}
+
+.cont__sb-create{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+}
+
+.cont__sb-create-add{
+    width: 40px;
+    height: 40px;
+}
+
+.sb__playlist-text{
+    color: #6D6D6D;
+    font-size: 10px;
+    line-height: 3;
+    list-style: none;
 }
 
 .cont__sb-bottom{
+    color: white;
+    display: flex;
+    flex-direction: column;
     height: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+
+#small-logo{
+    display: none;
+}
+
+.cont__sb-download-profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.cont__sb-download{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+    border-bottom: 1px solid grey;
 }
 
 .cont__ft-left{
@@ -119,7 +221,7 @@
 }
 
 .cont__media-controls{
-    height: 60%;
+    height: 50%;
     width: 100%;
     max-width: 200px;
     display: flex;
@@ -165,6 +267,10 @@
 .r__adapt{
     height: 60%;
     vertical-align: middle;
+}
+
+.adapt_not_responsive{
+    height: 100%;
 }
 
 .cont__song-bar__minute{

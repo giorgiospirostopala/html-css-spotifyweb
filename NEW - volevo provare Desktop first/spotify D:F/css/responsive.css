@@ -1,7 +1,25 @@
+/* TABLET LANDSCAPE */
+
+@media screen and (max-width: 854px) {
+    /* .cont__sb-middle__top{
+        height: 35%;
+    }
+    
+    .cont__sb-middle__bottom{
+        height: 65%;
+    } */
+}
+
 /* TABLET */
 
 @media screen and (max-width: 768px) {
+    /* .cont__sb-middle__top{
+        height: 13%;
+    }
     
+    .cont__sb-middle__bottom{
+        height: 87%;
+    } */
 }
 
 /* SMALL */
@@ -16,7 +34,20 @@
     .adapt{
         height: 80%;
     }
+
+    /* #small-logo{
+        display: inline;
+    } */
+
+    /* .cont__sb-middle__top{
+        height: 17%;
+    }
+    
+    .cont__sb-middle__bottom{
+        height: 83%;
+    } */
 }
+
 
 @media screen and (max-width: 415px){
     .cont__ft-left__right{
@@ -26,13 +57,6 @@
     .adapt{
         height: 80%;
     }
-}
-
-/* EXTRA SMALL  */
-@media screen and (max-width: 320px){
-    .adapt{
-        height: 60%;
-    }
 
     .cont__ft-right__right{
         display: none;
@@ -40,5 +64,12 @@
 
     .cont__ft-right__left{
         width: 100%;
+    }
+}
+
+/* EXTRA SMALL  */
+@media screen and (max-width: 320px){
+    .adapt{
+        height: 60%;
     }
 }
