@@ -79,11 +79,49 @@
 
 /* EXTRA SMALL  */
 @media screen and (max-width: 320px){
+    .small-logo{
+        display: inline;
+        width: 35px;
+    }
+
+    .cont__sb-top__logo{
+        padding: 10px;
+
+
+        /* 
+            perché devo usare padding per ingrandire il div?
+            a cosa fa riferimento il width in questo caso??? 
+        */
+
+
+        width: 100%;
+    }
+    
     .adapt{
         height: 60%;
     }
 
     .cont__nav button{
         font-size: 0.5rem;
+    }
+
+    .adiòs-amigo{
+        display: none;
+    }
+
+    .cont__sb-middle__top{
+        border: none;
+    }
+    
+    .cont__sb-download {
+        border: none;
+    }
+
+    .cont__sidebar {
+        flex-basis: 10px;
+    }
+
+    .cont__nav-main{
+        flex-basis: calc(100% - 10px);
     }
 }
