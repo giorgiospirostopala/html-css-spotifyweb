@@ -7,13 +7,14 @@
 
 .contenitore__nav-side-main{
     background-color: beige;
-    height: calc(100% - 100px);
+    height: calc(100% - 80px);
     display: flex;
 }
 
 .contenitore__footer{
     background-color: aqua;
-    height: 100px;
+    height: 80px;
+    display: flex;
 }
 
 .cont__sidebar{
@@ -26,4 +27,50 @@
     background-color: cadetblue;
     flex-basis: calc(100% - 150px);
     height: 100%;
+}
+
+.cont__nav{
+    height: 60px;
+}
+
+.cont__main{
+    height: calc(100% - 60px);
+}
+
+.cont__sb-top{
+    height: calc(100% - 60px);
+}
+
+.cont__sb-bottom{
+    height: 60px;
+}
+
+.cont__ft-left{
+    height: 100%;
+    flex-basis: 150px;
+    display: flex;
+    padding: 15px 0 15px 15px;
+}
+
+.cont__ft-center{
+    flex-basis: calc(100% - 300px);
+    min-width: 150px;
+}
+
+.cont__ft-right{
+    flex-basis: 150px;
+}
+
+.cont__ft-left__left{
+    flex-basis: 70%;
+    display: flex;
+}
+
+.cont__ft-left__right{
+    flex-basis: 30%;
+}
+
+.cont__footer-image{
+    flex-basis: 40%;
+    height: 80%;
 }
