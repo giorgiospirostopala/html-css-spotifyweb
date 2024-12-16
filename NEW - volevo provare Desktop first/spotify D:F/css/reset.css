@@ -7,4 +7,27 @@
     /* font-size: 12px; */
 }
 
+/* 
 
+
+    DOMANDE:
+
+    • posso usare <br> per creare spazio fra due div,    
+      come ho fatto?
+
+
+    • vorrei analizzare brevemente il comportamento di 
+      .cont__sb-top__logo e i suoi riferimenti, soprat_
+      _tutto nel passaggio da xs a s. 
+    
+
+    • come avrei potuto ricreare la stessa fluidità del 
+      mokup di riferimento, nel rimpicciolimento della 
+      pagina? gap dinamico che diminuisce al diminuire
+      della distanza (.cards__container).
+
+    •
+
+
+
+*/

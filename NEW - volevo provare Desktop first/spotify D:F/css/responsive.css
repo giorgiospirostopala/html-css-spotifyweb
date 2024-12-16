@@ -131,10 +131,14 @@
     }
 
     .cont__sidebar {
-        flex-basis: 10px;
+        flex-basis: 60px;
     }
 
     .cont__nav-main{
         flex-basis: calc(100% - 10px);
+    }
+
+    .cont__nav{
+        width: calc(100% - 55px);
     }
 }
